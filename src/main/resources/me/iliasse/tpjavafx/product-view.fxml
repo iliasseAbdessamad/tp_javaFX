@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0"
+            fx:controller="me.iliasse.tpjavafx.controllers.ProductController"
+>
+    <padding><Insets topRightBottomLeft="15" /></padding>
+    <top>
+        <HBox style="-fx-padding:0 0 20 0">
+            <children>
+                <TitledPane text="Détail du produit" expanded="true" collapsible="false">
+                    <VBox>
+                        <children>
+                            <HBox>
+                                <children>
+                                    <Label text="Nom du produit : " />
+                                    <TextField fx:id="txtProductName" />
+                                </children>
+                            </HBox>
+                            <HBox>
+                                <children>
+                                    <Label text="Prix du produit : " />
+                                    <TextField fx:id="txtProductPrice" />
+                                </children>
+                            </HBox>
+                        </children>
+                    </VBox>
+                </TitledPane>
+                <Region HBox.hgrow="ALWAYS" />
+                <TitledPane text="Actions" expanded="true" collapsible="false">
+                    <VBox>
+                        <children>
+                            <Button text="Ajouter" fx:id="btnAdd" onAction="#addProduct" />
+                            <Button text="Modifier" fx:id="btnUpdate" onAction="#updateProduct" />
+                            <Button text="Supprimer" fx:id="btnDelete" onAction="#deleteProduct" />
+                        </children>
+                    </VBox>
+                </TitledPane>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <VBox>
+            <children>
+                <HBox styleClass="hboxSerach">
+                    <children>
+                        <Label text="Rechercher par mot clé : " />
+                        <TextField fx:id="txtSearchProduct" onKeyPressed="#textChange" />
+                    </children>
+                </HBox>
+                <ListView fx:id="listviewProducts" onMouseClicked="#cellSelection" />
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
