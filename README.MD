@@ -1,17 +1,17 @@
 <h2>TP 4 : JavaFX</h2>
 <h4>L'objectif du TP : </h4>
-<img scr="./imgs/1.png" alt="objectif de du TP" />
+<img src="./imgs/1.png" alt="objectif de du TP" />
 
 <h4>Réalisation : </h4>
 
 <p><b>1 - class Product </b></p>
-<img scr="./imgs/2.png" alt="class Product" />
+<img src="./imgs/2.png" alt="class Product" />
 <br />
 
 <p><b>2 - la vue product-view </b></p>
-<img scr="./imgs/3.png" alt="la vue product-view" />
-<img scr="./imgs/33.png" alt="la vue product-view" />
-<img scr="./imgs/333.png" alt="la vue product-view" />
+<img src="./imgs/3.png" alt="la vue product-view" />
+<img src="./imgs/33.png" alt="la vue product-view" />
+<img src="./imgs/333.png" alt="la vue product-view" />
 <br />
 
 <p><b>3 - le controlleur ProductController </b></p>
