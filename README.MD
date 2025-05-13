@@ -15,22 +15,22 @@
 <br />
 
 <p><b>3 - le controlleur ProductController </b></p>
-<img scr="./imgs/4.png" alt="le controlleur ProductController" />
-<img scr="./imgs/44.png" alt="le controlleur ProductController" />
-<img scr="./imgs/444.png" alt="le controlleur ProductController" />
-<img scr="./imgs/4444.png" alt="le controlleur ProductController" />
-<img scr="./imgs/44444.png" alt="le controlleur ProductController" />
-<img scr="./imgs/444444.png" alt="le controlleur ProductController" />
+<img src="./imgs/4.png" alt="le controlleur ProductController" />
+<img src="./imgs/44.png" alt="le controlleur ProductController" />
+<img src="./imgs/444.png" alt="le controlleur ProductController" />
+<img src="./imgs/4444.png" alt="le controlleur ProductController" />
+<img src="./imgs/44444.png" alt="le controlleur ProductController" />
+<img src="./imgs/444444.png" alt="le controlleur ProductController" />
 
 <br />
 
 <p><b>4 - Feuille de style css </b></p>
-<img scr="./imgs/5.png" alt="la feuille de style css" />
+<img src="./imgs/5.png" alt="la feuille de style css" />
 <br />
 
 <p><b>5 - La class Application (point d'entrée de l'application) </b></p>
-<img scr="./imgs/6.png" alt="la class Application" />
+<img src="./imgs/6.png" alt="la class Application" />
 <br />
 
 <p><b>L'iterface utilisateur de l'application</b></p>
-<img scr="./imgs/7.png" alt="la class Application" />
+<img src="./imgs/7.png" alt="la class Application" />
